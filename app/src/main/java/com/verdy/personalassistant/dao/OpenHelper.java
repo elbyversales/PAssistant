@@ -18,7 +18,6 @@ import java.util.List;
 public class OpenHelper extends SQLiteOpenHelper {
     private static final String TAG = OpenHelper.class.getSimpleName();
     private static final int SCHEMA_VERSION = 1;
-    //static final String DB_DIR = Environment.getExternalStorageDirectory() + "/" + Constant.APP_DIR + "/db/PA.db";
     static final String DB_NAME = "PA.db";
     private static OpenHelper instance;
 
